@@ -1,0 +1,118 @@
+/* Put your styles here */
+@font-face {
+	font-family: Capture;
+	src: url(http://byjoemoon.com/Capture.ttf);
+}
+
+@font-face {
+	font-family: 'American Typewriter';
+	src: url(http://byjoemoon.com/amrtypen.ttf);
+}
+
+.brand {
+	font-family: 'Special Elite', 'Courier New', Courier, serif;
+	letter-spacing: 3px;
+}
+
+.nav > li > a, h1, .post-list > li, th, td {
+	font-family: 'Courier New', Courier, serif;
+}
+
+.nav > li > a {
+	font-family: 'American Typewriter','Courier New', Courier, serif; 
+}
+
+.nav > li > a, .post-list > li, th, td {
+	font-size: 16px;
+}
+
+p, li {
+	font-family: Georgia, serif;
+}
+
+body {
+	background-color: #BDB8AA;
+}
+
+.media-grid > li > a {
+  background-color: #ffffff;
+}
+
+.content-page {
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 20px 20px 8px 20px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.front-page {
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 10px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.content {
+	padding-top: 60px;
+}
+
+.post-list > li {
+	list-style-type: none;
+}
+
+.post-list > li > a {
+	color: #404040;
+}
+
+.post-nav > li > a {
+	color: #404040;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.post-nav > .next-button {
+	float: right;
+}
+
+.post-nav {
+	width: 100%;
+}
+
+.post-list {
+	padding: 0 0 20px 0;
+	margin: 0;
+}
+
+.post-list a {
+	width: 560px;
+	display: block;
+	padding: 10px;
+    border-bottom: 1px solid #DDD;
+}
+
+.content p, .content li {
+	font-size: 16px;
+	line-height: 1.8;
+	margin-bottom: 12px;
+	color: #404040;
+}
+
+.post-list li {
+	margin-bottom: 0;
+}
+
+p.draco {
+	font-family: Trykker;
+	text-transform: uppercase;
+}
+
+p.footer-info {
+	margin-top: 20px;
+	font-size: 11px;
+}
